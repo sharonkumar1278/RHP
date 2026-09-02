@@ -1,0 +1,42 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package monish_rhp;
+
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
+
+/**
+ *
+ * @author dell
+ */
+
+    /*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author dell
+ */
+import java.util.*;
+public class Compression {
+    public static void main(String args[]){
+    Scanner obj=new Scanner(System.in);
+    Set<Integer> set=new TreeSet<>();
+    int n=obj.nextInt();
+    for(int i=0;i<n;i++){
+      set.add(obj.nextInt());
+    }
+    System.out.println(set.size());
+    for(int i:set){
+      System.out.print(i+" ");
+    }
+  }
+
+}
